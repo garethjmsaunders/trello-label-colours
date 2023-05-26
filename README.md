@@ -44,6 +44,5 @@ These are the classic Trello label colours, which were initially themed on the m
 
 ## Changelog
 
-1.0.0 2023-05-26 Initial version
-1.1.0 2023-05-26 Move colour hex codes into variables 
-                  to group them all at the top to make updating them easier
+* `1.0.0 2023-05-26` ⚙ Initial version
+* `1.1.0 2023-05-26` ⚙ Move colour hex codes into variables to group them all at the top to make updating them easier
