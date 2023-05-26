@@ -8,14 +8,18 @@
 
 Restores the classic Trello colours to those before the Atlassian update, May 2023.
 
+### New colours
+
+These are the new Trello label colours, of which I am not a fan.
+
 ![2023 colours](trello-colours-2023.png "New")
 
-New colours
 
+### Classic colours
+
+These are the classic Trello label colours, which were initially themed on the multi-coloured, striped Apple logo.
 
 ![Classic colours](trello-colours-classic.png "Classic")
-
-Classic colours
 
 
 
