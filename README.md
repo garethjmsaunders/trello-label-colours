@@ -1,6 +1,6 @@
 # Trello label colours
 
-* Version 1.0.0
+* Version 1.1.0
 * Last updated: Friday 26 May 2023
 
 
@@ -31,3 +31,15 @@ Classic colours
 4. Name the style something meaningful like `Trello label colours`.
 5. Set URL prefix to: `https://trello.com/`.
 6. Switch it on and enjoy beautiful colours once again.
+
+
+
+---
+
+
+
+## Changelog
+
+1.0.0 2023-05-26 Initial version
+1.1.0 2023-05-26 Move colour hex codes into variables 
+                  to group them all at the top to make updating them easier

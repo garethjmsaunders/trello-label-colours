@@ -3,7 +3,7 @@
  * Restoring the classic Trello colours after
  * the Atlassian update, May 2023.
  *
- * @version     1.0.0 2023-05-26
+ * @version     1.1.0 2023-05-26
  * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
  * @license     GNU General Public License version 3, 29 June 2007
  * 
@@ -22,77 +22,115 @@
 */
 
 
+/* Set colour variables to enable users to update these colours more easily */
+:root {
+
+    --green-light  : #b7deb0;
+    --yellow-light : #f6ea92;
+    --orange-light : #fbd19c;
+    --red-light    : #f0b3ab;
+    --purple-light : #dfc0eb;
+    --blue-light   : #8cbed9;
+    --sky-light    : #90dfeb;
+    --lime-light   : #b3f1d0;
+    --pink-light   : #f8c2e4;
+    --black-light  : #506079;
+
+    --green        : #6fc25f;
+    --yellow       : #f2d918;
+    --orange       : #fea72f;
+    --red          : #ec6957;
+    --purple       : #c883e2;
+    --blue         : #1885c4;
+    --sky          : #18c7e2;
+    --lime         : #61e9a1;
+    --pink         : #fe84cf;
+    --black        : #486271;
+
+    --green-dark   : #59ac44;
+    --yellow-dark  : #e7c60b;
+    --orange-dark  : #e79217;
+    --red-dark     : #cf513d;
+    --purple-dark  : #a86cc1;
+    --blue-dark    : #036aa7;
+    --sky-dark     : #03aecc;
+    --lime-dark    : #4fd582;
+    --pink-dark    : #e668af;
+    --black-dark   : #081f42;
+
+}
+
 
 /* Light */
 
 button[data-color="green_light"],
 div[data-color="green_light"],
 .Cn9y4ObAaWTZwO {
-  background-color: #b7deb0 !important;
-  color: black;
+    background-color: var(--green-light) !important;
+    color: black;
 }
 
 button[data-color="yellow_light"],
 div[data-color="yellow_light"],
 ..NpADceDDi9xYuP {
-  background-color: #f6ea92 !important;
-  color: black;
+    background-color: var(--yellow-light) !important;
+    color: black;
 }
 
 button[data-color="orange_light"],
 div[data-color="orange_light"],
 .aKauigXRxL8pcj {
-  background-color: #fbd19c !important;
-  color: black;
+    background-color: var(--orange-light) !important;
+    color: black;
 }
 
 button[data-color="red_light"],
 div[data-color="red_light"],
 .r2HEItb9_KRbj9 {
-  background-color: #f0b3ab !important;
-  color: black;
+    background-color: var(--red-light) !important;
+    color: black;
 }
 
 button[data-color="purple_light"],
 div[data-color="purple_light"],
 .AfzCfSnfyonbWd {
-  background-color: #dfc0eb !important;
-  color: black;
+    background-color: var(--purple-light) !important;
+    color: black;
 }
 
 button[data-color="blue_light"],
 div[data-color="blue_light"],
 .kcIgbOaECw9W7I {
-  background-color: #8cbed9 !important;
-  color: white;
+    background-color: var(--blue-light) !important;
+    color: white;
 }
 
 button[data-color="sky_light"],
 div[data-color="sky_light"],
 .S8G_AQNfU0s7Fw {
-  background-color: #90dfeb !important;
-  color: black;
+    background-color: var(--sky-light) !important;
+    color: black;
 }
 
 button[data-color="lime_light"],
 div[data-color="lime_light"],
 .f5awrYIaQQ0R3F {
-  background-color: #b3f1d0 !important;
-  color: black;
+    background-color: var(--lime-light) !important;
+    color: black;
 }
 
 button[data-color="pink_light"],
 div[data-color="pink_light"],
 .CqEAnEcZRG0JVT {
-  background-color: #f8c2e4 !important;
-  color: black;
+    background-color: var(--pink-light) !important;
+    color: black;
 }
 
 button[data-color="black_light"],
 div[data-color="black_light"],
 .ypFVxwslVbmYZG {
-  background-color: #506079 !important;
-  color: white;
+    background-color: var(--black-light) !important;
+    color: white;
 }
 
 
@@ -102,71 +140,71 @@ div[data-color="black_light"],
 button[data-color="green"],
 div[data-color="green"],
 .l91PVp5dpFHEF0 {
-  background-color: #6fc25f !important;
-  color: white;
+    background-color: var(--green) !important;
+    color: white;
 }
 
 button[data-color="yellow"],
 div[data-color="yellow"],
 .QHj5UJew7wtF9U {
-  background-color: #f2d918 !important;
-  color: white;
+    background-color: var(--yellow) !important;
+    color: white;
 }
 
 button[data-color="orange"],
 div[data-color="orange"],
 .ExBr8S3CaBvZg4 {
-  background-color: #fea72f !important;
-  color: white;
+    background-color: var(--orange) !important;
+    color: white;
 }
 
 button[data-color="red"],
 div[data-color="red"],
 .XTmVzQf41BytPe {
-  background-color: #ec6957 !important;
-  color: white;
+    background-color: var(--red) !important;
+    color: white;
 }
 
 button[data-color="purple"],
 div[data-color="purple"],
 .sJiFqT30gSfw0u {
-  background-color: #c883e2 !important;
-  color: white;
+    background-color: var(--purple) !important;
+    color: white;
 }
 
 button[data-color="blue"],
 div[data-color="blue"],
 .cHuWD0hGp8_is7 {
-  background-color: #1885c4 !important;
-  color: white;
+    background-color: var(--blue) !important;
+    color: white;
 }
 
 button[data-color="sky"],
 div[data-color="sky"],
 .I2BuBn47JitXgV {
-  background-color: #18c7e2 !important;
-  color: white;
+    background-color: var(--sky) !important;
+    color: white;
 }
 
 button[data-color="lime"],
 div[data-color="lime"],
 .rZEB8rNEggjT7E {
-  background-color: #61e9a1 !important;
-  color: white;
+    background-color: var(--lime) !important;
+    color: white;
 }
 
 button[data-color="pink"],
 div[data-color="pink"],
 .Cme0CW3MPWaUhm {
-  background-color: #fe84cf !important;
-  color: white;
+    background-color: var(--pink) !important;
+    color: white;
 }
 
 button[data-color="black"],
 div[data-color="black"],
 .rzryfN0EtRe69a {
-  background-color: #486271 !important;
-  color: white;
+    background-color: var(--black) !important;
+    color: white;
 }
 
 
@@ -176,69 +214,69 @@ div[data-color="black"],
 button[data-color="green_dark"],
 div[data-color="green_dark"],
 .TB5jdpRoW0Dl45 {
-  background-color: #59ac44 !important;
-  color: white;
+    background-color: var(--green-dark) !important;
+    color: white;
 }
 
 button[data-color="yellow_dark"],
 div[data-color="yellow_dark"],
 .Pi_KucwP4BMBA9 {
-  background-color: #e7c60b !important;
-  color: white;
+    background-color: var(--yellow-dark) !important;
+    color: white;
 }
 
 button[data-color="orange_dark"],
 div[data-color="orange_dark"],
 .ozup6cZ87V91KJ {
-  background-color: #e79217 !important;
-  color: white;
+    background-color: var(--orange-dark) !important;
+    color: white;
 }
 
 button[data-color="red_dark"],
 div[data-color="red_dark"],
 ._BPHWKP2fAsh4J {
-  background-color: #cf513d !important;
-  color: white;
+    background-color: var(--red-dark) !important;
+    color: white;
 }
 
 button[data-color="purple_dark"],
 div[data-color="purple_dark"],
 .gQXwgdVfJSDLJm {
-  background-color: #a86cc1 !important;
-  color: white;
+    background-color: var(--purple-dark) !important;
+    color: white;
 }
 
 button[data-color="blue_dark"],
 div[data-color="blue_dark"],
 .c2oZVCHwn5nJFv {
-  background-color: #036aa7 !important;
-  color: white;
+    background-color: var(--blue-dark) !important;
+    color: white;
 }
 
 button[data-color="sky_dark"],
 div[data-color="sky_dark"],
 .SdK_mepZgGFgbU {
-  background-color: #03aecc !important;
-  color: white;
+    background-color: var(--sky-dark) !important;
+    color: white;
 }
 
 button[data-color="lime_dark"],
 div[data-color="lime_dark"],
 .uQODG4KWar6Ys5 {
-  background-color: #4fd582 !important;
-  color: white;
+    background-color: var(--lime-dark) !important;
+    color: white;
 }
 
 button[data-color="pink_dark"],
 div[data-color="pink_dark"],
 .pYgudi_kyPiAzw {
-  background-color: #e668af !important;
-  color: white;
+    background-color: var(--pink-dark) !important;
+    color: white;
 }
 
 button[data-color="black_dark"],
 div[data-color="black_dark"],
 .kUzvMEMCTU7Clf {
-  background-color: #081f42 !important;
-  color: white;
+    background-color: var(--black-dark) !important;
+    color: white;
 }
