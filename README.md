@@ -1,7 +1,7 @@
 # Trello classic label colours / colors
 
-* Version 1.2.0
-* Last updated: Saturday 27 May 2023
+* Version 1.3.1
+* Last updated: Sunday 5 November 2023
 
 
 ## 1. Summary
@@ -117,3 +117,7 @@ Class names and hex codes for the classic colour palette.
     * ⚙ Remove the CSS variables, in part to make the code simpler.
     * ⚙ Add @-moz domain rule to the CSS comments.
     * 🐛 Fix bug with double class-marker (full-stop) on yellow-light.
+* `1.3.1 2023-11-05`
+    * 🐛 Fix element. Trello changed the way labels are displayed from `button` to `span` element.
+    * ⚙ Remove `div[data-color...]` selector as this is now redundant.
+    * ⚙ Add `@-moz-` rule to comments as this is required to submit to Stylish.
