@@ -1,12 +1,12 @@
 # Trello classic label colours / colors
 
-* Version 1.3.1
-* Last updated: Sunday 5 November 2023
+* Version 2.0.0
+* Last updated: Sunday 3 December 2023
 
 
 ## 1. Summary
 
-Restores the classic [Trello](https://trello.com) label colours to those before the Atlassian update, May 2023.
+Restores the classic [Trello](https://trello.com) label colours to those before the Atlassian update, May 2023 and the cover colour updates, November 2023.
 
 ![2023 colours](trello-classic-label-colours.png "Example Trello board using the restored colour palette")
 
@@ -29,14 +29,9 @@ This is the classic (expanded) Trello label colour palette [launched in Septembe
 
 ## 2. How to install (via Userstyles)
 
-1. If you have not already done so, install the Stylish browser extension:
+For quite a few months, Userstyles has not been working for me – every update results in an unknown error – so I have deleted this style from Userstyles.
 
-* [Google Chrome](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe)
-* [Mozilla Firefox](https://addons.mozilla.org/en-GB/firefox/addon/stylish/)
-
-2. Visit [Trello classic label colours](https://userstyles.org/styles/265025/trello-classic-label-colours) on [userstyles.org](https://userstyles.org/styles/265025/trello-classic-label-colours).
-3. Click the "Install Style" button.
-4. Enjoy beautiful colours once again.
+You will need to follow the manual installation instructions below.
 
 
 ## 3. How to install (manual)
@@ -121,3 +116,6 @@ Class names and hex codes for the classic colour palette.
     * 🐛 Fix element. Trello changed the way labels are displayed from `button` to `span` element.
     * ⚙ Remove `div[data-color...]` selector as this is now redundant.
     * ⚙ Add `@-moz-` rule to comments as this is required to submit to Stylish.
+* `2.0.0 2023-12-03`
+    * 🐛 Fix cover colours.
+    * ⚙ Restructure CSS file to group rules by colour rather than light, normal, dark.
