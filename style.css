@@ -1,38 +1,32 @@
 /**
      * Trello label colours
      * Restoring the classic Trello colours after
-     * the Atlassian update, May 2023.
+     * the Atlassian update in May 2023.
      * 
-     * Stylish
-     * https://userstyles.org/styles/265025/trello-classic-label-colours
-     * 
-     * For Stylish, wrap code with:
+     * For Userstyles, wrap code with:
      * @-moz-document domain("trello.com") {}
      *
-     * @version     2.0.0 (Sunday 3 December 2023)
+     * @version     2.1.0 (Tuesday 5 December 2023)
      * @author      Gareth J M Saunders <garethjmsaunders@gmail.com>
      * @license     GNU General Public License version 3, 29 June 2007
      * 
-     * The labels are grouped as:
-     * 
-     * Light
-     * Normal
-     * Dark 
-     * 
      * Within each ruleset, the declarations are ordered as:
      * 
-     * ### Outside card label, Inside card label,  Inside card labels list, Settings label list
-     * span[data-color...] = Card label
-     * 
-     * ### Create a new label picker (in card and in settings)
-     * .Ab1c23dEfGHIj4       = Label picker grid
+     * Outside card label
+     * Inside card label
+     * Inside card labels list
+     * Settings label list
+     * Cover inside card
+     * Cover settings half
+     * Cover settings full
+     * Cover half outside card
      * 
      *  CHANGELOG
      *  v1.3.0 Label has changed from "button" to "span"
      *  v2.0.0 Add covers, restructure file by colour not light/normal/dark.
-     * 
+     *  v2.1.0 Add covers within an open card and cover settings
     */
-  
+
  
     /* GREEN ---------------------------- */
 
@@ -48,10 +42,15 @@
      span[data-color="green"],
     .l91PVp5dpFHEF0,
     .Zg0_0KMgyZm4Uj,
-    .E60PMA8W2pE823
+    .Zg0_0KMgyZm4Uj a,
+    .E60PMA8W2pE823,
+    .color-card-cover-green,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.ByxzTG2Nzk286h,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.ByxzTG2Nzk286h,
+    .poJEm5jOqvfcdA.oLdCqmMZyNDCUT
      {
         background-color: #6fc25f !important;
-        color: white;
+        color: white !important;
     }
 
     /* Dark green */
@@ -77,7 +76,11 @@
     span[data-color="yellow"],
     .QHj5UJew7wtF9U,
     .PVaQiSucflP6Rt,
-    .FGbdNCziUilgoc
+    .FGbdNCziUilgoc,
+    .color-card-cover-yellow,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.DbhymGCcphdQKo,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.DbhymGCcphdQKo,
+    .poJEm5jOqvfcdA.PUxjJ75cqOBDMF
     {
         background-color: #f2d918 !important;
         color: white;
@@ -106,10 +109,14 @@
     span[data-color="orange"],
     .ExBr8S3CaBvZg4,
     .giqRLfbX78h6AZ,
-    .Y61EngcCUSch7G
+    .Y61EngcCUSch7G,
+    .color-card-cover-orange,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.IJKSK1YXcCYVEJ,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.IJKSK1YXcCYVEJ,
+    .poJEm5jOqvfcdA.CDeS14JEyB0sMi
     {
         background-color: #fea72f !important;
-        color: white;
+        color: white !important;
     }
 
     /* Dark orange */
@@ -135,10 +142,15 @@
     span[data-color="red"],
     .XTmVzQf41BytPe,
     .O9F6x4ZUjLLhrJ,
-    .ccKK61gi4PnIKL
+    .O9F6x4ZUjLLhrJ a,
+    .ccKK61gi4PnIKL,
+    .color-card-cover-red,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.BV9egs4APN92_V,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.BV9egs4APN92_V,
+    .poJEm5jOqvfcdA.Tnp5FUAge8Jtl_
     {
         background-color: #ec6957 !important;
-        color: white;
+        color: white !important;
     }
 
     /* Dark red */
@@ -164,10 +176,16 @@
     span[data-color="purple"],
     .sJiFqT30gSfw0u,
     .r9TdbmZ9DYX595,
-    .GziGRL0ZgWBUcv
+    .r9TdbmZ9DYX595 a,
+    .GziGRL0ZgWBUcv,
+    .color-card-cover-purple,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.qOdt2HuWcKKbbM,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.qOdt2HuWcKKbbM,
+    .poJEm5jOqvfcdA.vLg117I98uBkYxn,
+    .poJEm5jOqvfcdA.vLg117I98uBkYx
     {
         background-color: #c883e2 !important;
-        color: white;
+        color: white !important;
     }
 
     /* Dark purple */
@@ -194,7 +212,11 @@
     .cHuWD0hGp8_is7,
     .klBMapupMUlJpj,
     .klBMapupMUlJpj a,
-    .EVyyZCOtkE_OoN 
+    .EVyyZCOtkE_OoN,
+    .color-card-cover-blue,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.fGVRVHDkYk_e9E,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.fGVRVHDkYk_e9E,
+    .poJEm5jOqvfcdA.PJO7FpCBxTQJJi
     {
         background-color: #1885c4 !important;
         color: white !important;;
@@ -223,10 +245,15 @@
     span[data-color="sky"],
     .I2BuBn47JitXgV,
     .DOAOOJoM4O0gvI,
-    .vWkTM7d2SPHQQK
+    .DOAOOJoM4O0gvI a,
+    .vWkTM7d2SPHQQK,
+    .color-card-cover-blue,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.KGVwlUBlsvr5SS,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.KGVwlUBlsvr5SS,
+    .poJEm5jOqvfcdA.Vns7ZQ7oQm1gqR
     {
         background-color: #18c7e2 !important;
-        color: white;
+        color: white !important;
     }
 
     /* Dark sky */
@@ -252,7 +279,11 @@
     span[data-color="lime"],
     .rZEB8rNEggjT7E,
     .bKgpPBXIRnfJg1,
-    .YWomjSyjZMZ6Tm
+    .YWomjSyjZMZ6Tm,
+    .color-card-cover-lime,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.P8dy_oZNQQSukY,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.P8dy_oZNQQSukY,
+    .poJEm5jOqvfcdA.haZCynNFvF4r0m
     {
         background-color: #61e9a1 !important;
         color: white;
@@ -282,7 +313,11 @@
     span[data-color="pink"],
     .Cme0CW3MPWaUhm,
     .Z7W_rG8Roleo3e,
-    .K8dwyVpuMbtVle
+    .K8dwyVpuMbtVle,
+    .color-card-cover-pink,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.qKMgdaNdqDmsw2,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.qKMgdaNdqDmsw2,
+    .poJEm5jOqvfcdA.d0p7y0U1nuF1Fd
     {
         background-color: #fe84cf !important;
         color: white;
@@ -312,7 +347,11 @@
     .rzryfN0EtRe69a,
     .RZ0CJSGvaIQSac,
     .RZ0CJSGvaIQSac a,
-    .OERnjPadUN5AwX
+    .OERnjPadUN5AwX,
+    .color-card-cover-black,
+    .dbAvK9Y7v_qGU_ .yB35llX9FI76Vm.C1wekU_UNF4NwF.LGYsBTkRwpcuat,
+    .dbAvK9Y7v_qGU_.UwgdXNveNbB391.C1wekU_UNF4NwF.LGYsBTkRwpcuat,
+    .poJEm5jOqvfcdA.WEIU2dCN80l8zB
     {
         background-color: #486271 !important;
         color: white !important;
